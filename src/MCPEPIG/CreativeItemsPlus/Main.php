@@ -23,6 +23,9 @@ class Main extends PluginBase implements Listener{
     foreach($this->creativeItemsPlus->get("items-added") as $aitem => $damagevalue){
       Item::addCreativeItem(Item::get($aitem, $damagevalue));      
     }
+    foreach($this->creativeItemsPlus->get("items-removed") as $ritem => $damagevalue){
+      Item::removeCreativeItem(Item::get($ritem, $damagevalue));   
+    }
     $this->getLogger()->info("§aCreativeItemsPlus by MCPEPIG loaded.");
     $this->getServer()->getPluginManager()->registerEvents($this, $this);
   }
