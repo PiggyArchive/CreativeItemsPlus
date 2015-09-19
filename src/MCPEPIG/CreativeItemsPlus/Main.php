@@ -27,7 +27,6 @@ class Main extends PluginBase implements Listener{
       Item::removeCreativeItem(Item::get($ritem, $damagevalue));   
     }
     $this->getLogger()->info("§aCreativeItemsPlus by MCPEPIG loaded.");
-    $this->getServer()->getPluginManager()->registerEvents($this, $this);
   }
   public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
   }
