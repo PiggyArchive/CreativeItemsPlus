@@ -1,6 +1,5 @@
 name: CreativeItemsPlus
-main: MCPEPIG\CreativeItemsPlus\Main
-version: 1.0.0
-api: [1.0.0]
-load: POSTWORLD
+main: CreativeItemsPlus\Main
+version: 1.0.1
+api: [2.0.0]
 author: MCPEPIG
