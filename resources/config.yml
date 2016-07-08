@@ -1,0 +1,12 @@
+---
+#If enabled, all items are wiped except ones you've added
+full-customization: false
+#Items you want added
+items-added:
+  246: 0 #Glowing obsidian
+  247: 1 #Red Nether Reactor Core
+  247: 2 #Black Nether Reactor Core
+items-removed:
+  46: 0 #Tnt
+  259: 0 #Flint & Steel
+...
