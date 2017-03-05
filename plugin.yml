@@ -1,5 +1,5 @@
 name: CreativeItemsPlus
-main: CreativeItemsPlus\Main
-version: 1.0.1
+main: MCPEPIG\CreativeItemsPlus\Main
+version: 1.0.2
 api: [2.0.0, 3.0.0-ALPHA1, 3.0.0-ALPHA2, 3.0.0-ALPHA3, 3.0.0-ALPHA4]
 author: MCPEPIG

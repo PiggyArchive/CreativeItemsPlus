@@ -1,5 +1,5 @@
 <?php
-namespace CreativeItemsPlus;
+namespace MCPEPIG\CreativeItemsPlus;
 
 use pocketmine\item\Item;
 use pocketmine\plugin\PluginBase;
